@@ -34,6 +34,24 @@
   margin: auto;
   border-bottom: #ddd 1px solid;
 }
+#newsletter {
+  margin-top: -90px;
+  position: relative;
+}
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+  .card:hover {
+    background: $primary;
+    h3,
+    p,
+    i {
+      color: white;
+    }
+  }
+}
 
 @media (max-width: 768px) {
   #showcase {
